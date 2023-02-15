@@ -1,0 +1,23 @@
+package day5;
+
+public class child1 {
+	void disp() {
+		System.out.println("im in child");
+		}
+	class child extends child1{
+		void disp() {
+			System.out.println("im in child 2");
+	    }
+	}
+	class child2 extends child1{
+		void disp() {
+			System.out.println("im in child 2");
+		}
+	}
+	class child3 extends child2{
+		void disp() {
+			System.out.println("im in child 3");
+		}
+	}
+
+}
